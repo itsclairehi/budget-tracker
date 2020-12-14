@@ -43,7 +43,6 @@
     ],
     "name": "Budget Tracker",
     "short_name": "Budgetz",
-    "orientation": "portrait",
     "display": "standalone",
     "start_url": "./index.html",
     "description": "An app that allows you to keep track of your money.",
