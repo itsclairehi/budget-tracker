@@ -1,19 +1,24 @@
-# budget-tracker
 
-GIVEN a budget tracker without an internet connection
-WHEN the user inputs an expense or deposit
-THEN they will receive a notification that they have added an expense or deposit
-WHEN the user reestablishes an internet connection
-THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+  # Budget-Tracker
+  ![badmath](https://img.shields.io/badge/license-MIT-green)
 
-You’ll need to use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+  ## Table of Contents
 
-You’ll also need to add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+  * [Installation](#installation)
+  * [License](#license)
 
-Once you’ve updated the existing budget tracker, it should provide the following functionality:
+  ## Description
+  This app allows you to track your earnings and expenses so you can stay on budget! You can add or subtract money from your total, which is automatically updated. You can also install to your device for offline usage. The functionality was given as starter code, and I added the ability to download and use offline.
+  
+  ## Installation
+  From the website you can press the "+" next to the url, which will download it to your "Chrome Apps" folder
+   
+  [link to deployed site](https://secret-inlet-96466.herokuapp.com/)
+  
+  ## License
+  Licensed under the MIT license
 
-The ability to enter deposits offline.
+  ## Questions? 
+  [my github](https://www.github.com/itsclairehi)
 
-The ability to enter expenses offline.
-
-Offline entries should be added to the tracker when the application is brought back online.
+ 
