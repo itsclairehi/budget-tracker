@@ -46,6 +46,6 @@
     "display": "standalone",
     "start_url": "./index.html",
     "description": "An app that allows you to keep track of your money.",
-    "background_color": "rgb(44, 151, 85)",
-    "theme_color": "rgb(44, 151, 85)"
+    "background_color": "#2e4e3a",
+    "theme_color": "#2c9755"
 }
