@@ -75,7 +75,6 @@ getAll.onsuccess = function() {
           const budgetObjectStore = transaction.objectStore('new_budget');
           budgetObjectStore.clear();
 
-        //   alert('All saved budget has been submitted!');
         })
         .catch(err => {
           console.log(err);
